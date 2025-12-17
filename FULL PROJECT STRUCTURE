@@ -1,0 +1,16 @@
+ojas-vidyalaya/
+│
+├── client/                # React Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│
+├── server/                # Backend
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│   └── server.js

@@ -1,0 +1,17 @@
+<Route
+  path="/admin"
+  element={
+    <ProtectedRoute role="admin">
+      <AdminDashboard />
+    </ProtectedRoute>
+  }
+/>
+
+<Route
+  path="/student"
+  element={
+    <ProtectedRoute>
+      <StudentDashboard />
+    </ProtectedRoute>
+  }
+/>

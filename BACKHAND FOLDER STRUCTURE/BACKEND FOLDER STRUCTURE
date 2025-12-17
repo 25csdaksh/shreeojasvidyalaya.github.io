@@ -1,0 +1,17 @@
+server/
+│
+├── models/
+│   ├── User.js
+│   └── Notes.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── notesRoutes.js
+│   └── paymentRoutes.js
+│
+├── middleware/
+│   └── authMiddleware.js
+│
+├── uploads/          # PDF files
+├── server.js
+└── .env
